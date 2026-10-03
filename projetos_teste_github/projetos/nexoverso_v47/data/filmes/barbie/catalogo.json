@@ -1,0 +1,185 @@
+{
+  "itens": [
+    {
+      "id": "filmes-barbie",
+      "titulo": "Barbie",
+      "categoria": "filme",
+      "subcategoria": "",
+      "tema": "",
+      "colecao": "Barbie",
+      "ano": null,
+      "generos": [
+        "Animação",
+        "Família",
+        "Fantasia",
+        "Aventura",
+        "Romance"
+      ],
+      "sinopse": "Coleção de filmes da Barbie organizada em uma única lista de conteúdos.",
+      "classificacao": "",
+      "imagem": "assets/img/poster-barbie.svg",
+      "fontes": [],
+      "conteudos": [
+        {
+          "titulo": "Barbie e Chelsea: O Aniversário Perdido",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 1,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/barbie-chelsea-o-aniversario-perdido-2021.svg",
+          "ano": 2021,
+          "generos": [
+            "Animação",
+            "Família"
+          ],
+          "sinopse": "Chelsea acredita que seu aniversário foi esquecido e parte em uma aventura para tentar recuperá-lo."
+        },
+        {
+          "titulo": "Barbie: Aventura da Princesa",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 2,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/barbie-aventura-da-princesa-2020.svg",
+          "ano": 2020,
+          "generos": [
+            "Animação",
+            "Família",
+            "Fantasia"
+          ],
+          "sinopse": "Uma aventura de princesa com troca de identidades, amizade e descobertas em um reino cheio de desafios."
+        },
+        {
+          "titulo": "Barbie: Butterfly e a Princesa Fairy",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 3,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/barbie-butterfly-e-a-princesa-fairy-2013.svg",
+          "ano": 2013,
+          "generos": [
+            "Animação",
+            "Família",
+            "Fantasia",
+            "Aventura"
+          ],
+          "sinopse": "Butterfly chega a um reino mágico e precisa unir forças com uma princesa para proteger o reino."
+        },
+        {
+          "titulo": "Barbie Butterfly: A Nova Aventura em Fairytopia",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 4,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/barbie-butterfly-nova-aventura-em-fairytopia-2008.svg",
+          "ano": 2008,
+          "generos": [
+            "Animação",
+            "Família",
+            "Fantasia",
+            "Aventura"
+          ],
+          "sinopse": "Butterfly atravessa um mundo de fadas em uma missão para ajudar a salvar seu reino."
+        },
+        {
+          "titulo": "Barbie como Rapunzel",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 5,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/barbie-como-rapunzel-2002.svg",
+          "ano": 2002,
+          "generos": [
+            "Animação",
+            "Família",
+            "Fantasia",
+            "Romance"
+          ],
+          "sinopse": "Uma versão de conto de fadas em que Barbie interpreta Rapunzel em uma história de magia, coragem e amor."
+        },
+        {
+          "titulo": "Barbie Dreamtopia: Festival da Alegria",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 6,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/barbie-dreamtopia-festival-da-alegria-2017.svg",
+          "ano": 2017,
+          "generos": [
+            "Animação",
+            "Família",
+            "Fantasia"
+          ],
+          "sinopse": "Barbie e suas aventuras em Dreamtopia celebram um mundo colorido de imaginação e fantasia."
+        },
+        {
+          "titulo": "Barbie e a Magia de Aladus",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 7,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/barbie-e-a-magia-de-aladus-2005.svg",
+          "ano": 2005,
+          "generos": [
+            "Animação",
+            "Família",
+            "Fantasia",
+            "Aventura"
+          ],
+          "sinopse": "A princesa Annika enfrenta um feiticeiro e parte em uma aventura mágica ao lado de um cavalo alado."
+        }
+      ],
+      "organizacao": {
+        "caminho": [
+          "FILMES",
+          "BARBIE"
+        ],
+        "pasta_tematica": "barbie"
+      }
+    }
+  ],
+  "categoria": "filme",
+  "colecao": "Barbie"
+}

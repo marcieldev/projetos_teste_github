@@ -1,0 +1,100 @@
+{
+  "itens": [
+    {
+      "id": "filme-super-velozes-mega-furiosos-2015",
+      "titulo": "Super Velozes, Mega Furiosos",
+      "categoria": "filme",
+      "subcategoria": "",
+      "tema": "",
+      "colecao": "",
+      "ano": 2015,
+      "generos": [
+        "Comédia",
+        "Ação",
+        "Paródia"
+      ],
+      "sinopse": "Uma comédia que satiriza a franquia Velozes e Furiosos com corridas, policiais infiltrados e muita confusão.",
+      "classificacao": "",
+      "imagem": "assets/img/filmes/super-velozes-mega-furiosos-2015.svg",
+      "midia": {
+        "plataforma": "externo",
+        "tipo": "pagina",
+        "destino": "externo",
+        "link": "https://redecanais.af/super-velozes-mega-furiosos-dublado-2015-1080p_1e918bba8.html",
+        "referencia": "nenhuma"
+      },
+      "fontes": [],
+      "organizacao": {
+        "caminho": [
+          "FILMES",
+          "AVULSOS"
+        ],
+        "pasta_tematica": "avulsos"
+      }
+    },
+    {
+      "id": "filme-tom-e-jerry-velozes-e-ferozes-2005",
+      "titulo": "Tom & Jerry: Velozes e Ferozes",
+      "categoria": "filme",
+      "subcategoria": "",
+      "tema": "",
+      "colecao": "",
+      "ano": 2005,
+      "generos": [
+        "Animação",
+        "Aventura",
+        "Comédia"
+      ],
+      "sinopse": "Tom e Jerry entram em uma competição de carros em busca de um grande prêmio.",
+      "classificacao": "",
+      "imagem": "assets/img/filmes/tom-e-jerry-velozes-e-ferozes-2005.svg",
+      "midia": {
+        "plataforma": "externo",
+        "tipo": "pagina",
+        "destino": "externo",
+        "link": "",
+        "referencia": "nenhuma"
+      },
+      "fontes": [],
+      "organizacao": {
+        "caminho": [
+          "FILMES",
+          "AVULSOS"
+        ],
+        "pasta_tematica": "avulsos"
+      }
+    },
+    {
+      "id": "filme-velozes-e-mortais-2004",
+      "titulo": "Velozes e Mortais",
+      "categoria": "filme",
+      "subcategoria": "",
+      "tema": "",
+      "colecao": "",
+      "ano": 2004,
+      "generos": [
+        "Ação",
+        "Suspense"
+      ],
+      "sinopse": "Um filme de ação sobre velocidade e perigo que não faz parte da franquia Velozes e Furiosos.",
+      "classificacao": "",
+      "imagem": "assets/img/filmes/velozes-e-mortais-2004.svg",
+      "midia": {
+        "plataforma": "externo",
+        "tipo": "pagina",
+        "destino": "externo",
+        "link": "",
+        "referencia": "nenhuma"
+      },
+      "fontes": [],
+      "organizacao": {
+        "caminho": [
+          "FILMES",
+          "AVULSOS"
+        ],
+        "pasta_tematica": "avulsos"
+      }
+    }
+  ],
+  "categoria": "filme"
+}

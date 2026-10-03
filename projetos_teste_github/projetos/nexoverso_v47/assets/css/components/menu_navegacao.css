@@ -1,0 +1,4 @@
+/* MENU — somente navegação e seus estados */
+.main-nav{display:flex;height:100%;gap:7px}.main-nav a{display:flex;align-items:center;gap:10px;padding:0 15px;color:#c1ccdb;font-weight:700;border-bottom:2px solid transparent}.main-nav a.active,.main-nav a:hover{color:#fff;border-bottom-color:var(--cyan)}.main-nav svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+/* Ícones de navegação: geometria consistente em todas as páginas. */
+.main-nav .nav-icon{width:16px;height:16px;flex:0 0 16px;display:block;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.main-nav .nav-icon+span{line-height:1}

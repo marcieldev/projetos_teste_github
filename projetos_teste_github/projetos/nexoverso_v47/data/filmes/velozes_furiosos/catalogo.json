@@ -1,0 +1,268 @@
+{
+  "itens": [
+    {
+      "id": "filmes-velozes-furiosos",
+      "titulo": "Velozes & Furiosos",
+      "categoria": "filme",
+      "subcategoria": "",
+      "tema": "",
+      "colecao": "Velozes & Furiosos",
+      "ano": null,
+      "generos": [
+        "Ação",
+        "Aventura",
+        "Suspense",
+        "Policial",
+        "Drama",
+        "Espionagem"
+      ],
+      "sinopse": "Coleção principal de filmes da franquia Velozes & Furiosos, organizada em ordem de lançamento.",
+      "classificacao": "",
+      "imagem": "assets/img/filmes/velozesEfuriosos.jpg",
+      "fontes": [],
+      "conteudos": [
+        {
+          "titulo": "Velozes e Furiosos",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "https://redecanais.af/velozes-furiosos-dublado-2001-1080p_882274abe.html",
+            "referencia": "temporada"
+          },
+          "exibir_thumbnail": true,
+          "numero": 1,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/velozesEfuriosos.jpg",
+          "ano": 2001,
+          "generos": [
+            "Ação",
+            "Aventura",
+            "Suspense",
+            "Policial"
+          ],
+          "sinopse": "Um policial infiltrado entra no mundo das corridas de rua para investigar uma gangue envolvida em roubos."
+        },
+        {
+          "titulo": "+Velozes +Furiosos",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "https://redecanais.af/velozes-furiosos-dublado-2003-1080p_616192b01.html",
+            "referencia": "episodio"
+          },
+          "exibir_thumbnail": true,
+          "numero": 2,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/2velozes.jpg",
+          "ano": 2003,
+          "generos": [
+            "Ação",
+            "Aventura",
+            "Suspense",
+            "Policial"
+          ],
+          "sinopse": "Brian O’Conner vai para Miami e se infiltra em uma operação contra um traficante."
+        },
+        {
+          "titulo": "Velozes e Furiosos: Desafio em Tóquio",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 3,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/velozes-e-furiosos-desafio-em-toquio-2006.svg",
+          "ano": 2006,
+          "generos": [
+            "Ação",
+            "Drama",
+            "Policial",
+            "Suspense"
+          ],
+          "sinopse": "Sean Boswell vai para Tóquio e descobre o mundo das corridas de drift."
+        },
+        {
+          "titulo": "Velozes e Furiosos 4",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 4,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/velozes-e-furiosos-4-2009.svg",
+          "ano": 2009,
+          "generos": [
+            "Ação",
+            "Aventura",
+            "Policial"
+          ],
+          "sinopse": "Dom e Brian voltam a se encontrar quando uma investigação coloca os dois novamente no mesmo caminho."
+        },
+        {
+          "titulo": "Velozes & Furiosos 5: Operação Rio",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 5,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/velozes-e-furiosos-5-operacao-rio-2011.svg",
+          "ano": 2011,
+          "generos": [
+            "Ação",
+            "Aventura",
+            "Policial"
+          ],
+          "sinopse": "A equipe se reúne no Rio de Janeiro para um grande golpe enquanto é perseguida pelas autoridades."
+        },
+        {
+          "titulo": "Velozes e Furiosos 6",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 6,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/velozes-e-furiosos-6-2013.svg",
+          "ano": 2013,
+          "generos": [
+            "Ação",
+            "Aventura"
+          ],
+          "sinopse": "Hobbs reúne Dom e sua equipe para enfrentar uma organização internacional liderada por Owen Shaw."
+        },
+        {
+          "titulo": "Velozes e Furiosos 7",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 7,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/velozes-e-furiosos-7-2015.svg",
+          "ano": 2015,
+          "generos": [
+            "Ação",
+            "Aventura"
+          ],
+          "sinopse": "A equipe enfrenta Deckard Shaw, que busca vingança pela derrota de seu irmão."
+        },
+        {
+          "titulo": "Velozes e Furiosos 8",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 8,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/velozes-e-furiosos-8-2017.svg",
+          "ano": 2017,
+          "generos": [
+            "Ação",
+            "Aventura",
+            "Suspense"
+          ],
+          "sinopse": "Dom é levado a trair sua própria equipe quando uma nova ameaça surge em uma operação global."
+        },
+        {
+          "titulo": "Velozes & Furiosos: Hobbs & Shaw",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 9,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/velozes-e-furiosos-hobbs-shaw-2019.svg",
+          "ano": 2019,
+          "generos": [
+            "Ação",
+            "Aventura",
+            "Espionagem"
+          ],
+          "sinopse": "Hobbs e Shaw precisam deixar a rivalidade de lado para enfrentar uma ameaça biológica global."
+        },
+        {
+          "titulo": "Velozes & Furiosos 9",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 10,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/velozes-e-furiosos-9-2021.svg",
+          "ano": 2021,
+          "generos": [
+            "Ação",
+            "Aventura",
+            "Suspense"
+          ],
+          "sinopse": "Dom e sua equipe enfrentam uma nova ameaça ligada ao passado e à própria família de Dom."
+        },
+        {
+          "titulo": "Velozes e Furiosos 10",
+          "midia": {
+            "plataforma": "externo",
+            "tipo": "pagina",
+            "destino": "externo",
+            "link": "",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 11,
+          "exibir_numero": true,
+          "imagem": "assets/img/filmes/velozes-e-furiosos-10-2023.svg",
+          "ano": 2023,
+          "generos": [
+            "Ação",
+            "Aventura",
+            "Suspense"
+          ],
+          "sinopse": "A família de Dom enfrenta um novo adversário que chega disposto a cobrar uma antiga dívida."
+        }
+      ],
+      "organizacao": {
+        "caminho": [
+          "FILMES",
+          "VELOZES & FURIOSOS"
+        ],
+        "pasta_tematica": "velozes_furiosos"
+      }
+    }
+  ],
+  "categoria": "filme",
+  "colecao": "Velozes & Furiosos"
+}

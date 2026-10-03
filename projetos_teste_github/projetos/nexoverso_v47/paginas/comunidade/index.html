@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Comunidade — NEXOVERSO</title>
+    <link rel="stylesheet" href="../../assets/css/base/reset.css" />
+    <link rel="stylesheet" href="../../assets/css/base/variaveis.css" />
+    <link rel="stylesheet" href="../../assets/css/base/base.css" />
+    <link rel="stylesheet" href="../../assets/css/components/header.css" />
+    <link
+      rel="stylesheet"
+      href="../../assets/css/components/menu_navegacao.css"
+    />
+    <link rel="stylesheet" href="../../assets/css/components/botoes.css" />
+    <link rel="stylesheet" href="../../assets/css/components/cards.css" />
+    <link rel="stylesheet" href="../../assets/css/components/footer.css" />
+    <link rel="stylesheet" href="../../assets/css/components/modais.css" />
+    <link rel="stylesheet" href="../../assets/css/pages/comunidade.css" />
+    <link rel="stylesheet" href="../../assets/css/responsivo/responsivo.css" />
+    <link rel="stylesheet" href="../../assets/css/premium.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="nav-shell">
+        <a class="brand" href="../../">NEXO<span>VERSO</span></a>
+        <nav class="main-nav" aria-label="Navegação principal">
+          <a href="../../"
+            ><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M3 10.8 12 3l9 7.8v9.2a1 1 0 0 1-1 1h-5.5v-6h-5v6H4a1 1 0 0 1-1-1z"
+              /></svg
+            ><span>Início</span></a
+          >
+          <a href="../catalogo/"
+            ><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="4" y="4" width="6" height="6" rx="1" />
+              <rect x="14" y="4" width="6" height="6" rx="1" />
+              <rect x="4" y="14" width="6" height="6" rx="1" />
+              <rect x="14" y="14" width="6" height="6" rx="1" /></svg
+            ><span>Catálogo</span></a
+          >
+          <a class="active" href="./" aria-current="page"
+            ><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5 8.7 8.7 0 0 1-3.1-.57L4 20l1.57-4.06A7.43 7.43 0 0 1 5 11.5 7.5 7.5 0 0 1 12.5 4 7.5 7.5 0 0 1 20 11.5Z"
+              />
+              <path d="M9 12h.01M12 12h.01M15 12h.01" /></svg
+            ><span>Comunidade</span></a
+          >
+        </nav>
+        <div class="nav-tools">
+          <label class="search-box"
+            ><input placeholder="Buscar conteúdos..." /><svg
+              viewBox="0 0 24 24"
+            >
+              <circle cx="10.8" cy="10.8" r="6.7" />
+              <path d="m16 16 5 5" /></svg></label
+          ><button class="tool-icon" aria-label="Notificações">
+            <svg viewBox="0 0 24 24">
+              <path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9Z" />
+              <path d="M10 21h4" /></svg
+            ><i></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="page container">
+      <section class="community-page">
+        <div class="community-hero">
+          <p class="eyebrow">COMUNIDADE</p>
+          <h1 id="communityTitle">A comunidade é parte do projeto.</h1>
+          <p id="communityIntro">Carregando informações...</p>
+          <a
+            id="discordLink"
+            class="btn primary"
+            target="_blank"
+            rel="noopener noreferrer"
+            >♧ Entrar na comunidade</a
+          >
+        </div>
+        <section class="community-section">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">COMO FUNCIONA</p>
+              <h2>Sem complicação.</h2>
+            </div>
+          </div>
+          <div id="communityHow" class="community-grid"></div>
+        </section>
+        <section class="community-section">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">COMO O NEXOVERSO SE ORGANIZA</p>
+              <h2>Por trás da biblioteca.</h2>
+            </div>
+          </div>
+          <div id="communityOrg" class="community-grid"></div>
+        </section>
+        <section class="community-status">
+          <div>
+            <p class="eyebrow">STATUS</p>
+            <h2 id="statusTitle">Projeto em construção.</h2>
+            <p>
+              Estamos adicionando os conteúdos aos poucos. A estrutura pode
+              mudar enquanto testamos o que fica mais prático.
+            </p>
+          </div>
+          <ul id="statusList"></ul>
+        </section>
+        <section class="community-section">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">MURAL</p>
+              <h2>Novidades.</h2>
+            </div>
+          </div>
+          <div id="communityPosts" class="community-posts"></div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-main">
+        <span>© 2026 NEXOVERSO. Todos os direitos reservados.</span>
+        <div>
+          <a href="../../">Início</a><b>•</b><a href="../catalogo/">Catálogo</a>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="../../assets/js/pages/comunidade.js"></script>
+  </body>
+</html>

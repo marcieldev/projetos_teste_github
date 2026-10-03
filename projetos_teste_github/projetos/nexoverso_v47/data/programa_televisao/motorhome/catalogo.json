@@ -1,0 +1,140 @@
+{
+  "itens": [
+    {
+      "id": "apresentando-motorhome",
+      "titulo": "Apresentando Motorhome",
+      "categoria": "programa_televisao",
+      "subcategoria": "",
+      "generos": [
+        "Motorhome",
+        "Caminhões"
+      ],
+      "sinopse": "Conteúdo organizado a partir dos vídeos de Motorhome enviados para o NEXOVERSO.",
+      "classificacao": "Livre",
+      "imagem": "assets/img/poster-aster.svg",
+      "fontes": [
+        {
+          "nome": "Vegini Motorhome",
+          "link": ""
+        }
+      ],
+      "conteudos": [
+        {
+          "titulo": "Apresentando Motorhome — Vídeo 01",
+          "midia": {
+            "plataforma": "youtube",
+            "tipo": "video",
+            "destino": "externo",
+            "link": "https://www.youtube.com/watch?v=wYvHcFoTn8A",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 1,
+          "exibir_numero": true
+        },
+        {
+          "titulo": "Apresentando Motorhome — Vídeo 02",
+          "midia": {
+            "plataforma": "youtube",
+            "tipo": "video",
+            "destino": "externo",
+            "link": "https://www.youtube.com/watch?v=q-UwOtzmAzQ&pp=ugUHEgVwdC1QVA%3D%3D",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 2,
+          "exibir_numero": true
+        },
+        {
+          "titulo": "Apresentando Motorhome — Vídeo 03",
+          "midia": {
+            "plataforma": "youtube",
+            "tipo": "video",
+            "destino": "externo",
+            "link": "https://www.youtube.com/watch?v=CETITqEMKgE&pp=ugUHEgVwdC1QVA%3D%3D",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 3,
+          "exibir_numero": true
+        },
+        {
+          "titulo": "Apresentando Motorhome — Vídeo 04",
+          "midia": {
+            "plataforma": "youtube",
+            "tipo": "video",
+            "destino": "externo",
+            "link": "https://www.youtube.com/watch?v=Nq2J9GiiNmk&pp=0gcJCf4LAYcqIYzv",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 4,
+          "exibir_numero": true
+        },
+        {
+          "titulo": "Apresentando Motorhome — Vídeo 05",
+          "midia": {
+            "plataforma": "youtube",
+            "tipo": "video",
+            "destino": "externo",
+            "link": "https://www.youtube.com/watch?v=7QJ0_VfajZ4",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 5,
+          "exibir_numero": true
+        },
+        {
+          "titulo": "Apresentando Motorhome — Vídeo 06",
+          "midia": {
+            "plataforma": "youtube",
+            "tipo": "video",
+            "destino": "externo",
+            "link": "https://www.youtube.com/watch?v=hRDEwOc-Icc",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 6,
+          "exibir_numero": true
+        },
+        {
+          "titulo": "Apresentando Motorhome — Vídeo 07",
+          "midia": {
+            "plataforma": "youtube",
+            "tipo": "video",
+            "destino": "externo",
+            "link": "https://www.youtube.com/watch?v=Ks2Wi_0U65k",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 7,
+          "exibir_numero": true
+        },
+        {
+          "titulo": "Apresentando Motorhome — Vídeo 08",
+          "midia": {
+            "plataforma": "youtube",
+            "tipo": "video",
+            "destino": "externo",
+            "link": "https://www.youtube.com/watch?v=uORXxV_0knM",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 8,
+          "exibir_numero": true
+        }
+      ],
+      "organizacao": {
+        "caminho": [
+          "CANAL DE YOUTUBER",
+          "APRESENTANDO MOTORHOME"
+        ],
+        "pasta_tematica": "motorhome"
+      },
+      "ano": null,
+      "tema": "motorhome"
+    }
+  ],
+  "categoria": "programa_televisao",
+  "tema": "motorhome"
+}

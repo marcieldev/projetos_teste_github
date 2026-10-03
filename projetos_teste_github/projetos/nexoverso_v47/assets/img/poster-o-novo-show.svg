@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-labelledby="title desc">
+  <title id="title">O Novo Show do Scooby-Doo e Scooby-Loo</title>
+  <desc id="desc">Pôster de teste do catálogo NEXOVERSO.</desc>
+  <rect width="600" height="900" rx="28" fill="#171717"/>
+  <rect x="28" y="28" width="544" height="844" rx="22" fill="none" stroke="#666" stroke-width="3"/>
+  <text x="300" y="170" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="34" font-weight="700">O NOVO SHOW</text>
+  <text x="300" y="220" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="25">DO SCOOBY-DOO</text>
+  <text x="300" y="258" text-anchor="middle" fill="#ddd" font-family="Arial, sans-serif" font-size="22">E SCOOBY-LOO</text>
+  <circle cx="300" cy="455" r="120" fill="#292929" stroke="#888" stroke-width="3"/>
+  <text x="300" y="448" text-anchor="middle" fill="#ddd" font-family="Arial, sans-serif" font-size="22">TESTE</text>
+  <text x="300" y="480" text-anchor="middle" fill="#aaa" font-family="Arial, sans-serif" font-size="18">NEXOVERSO</text>
+  <text x="300" y="760" text-anchor="middle" fill="#aaa" font-family="Arial, sans-serif" font-size="18">Desenho • 1983</text>
+</svg>

@@ -1,0 +1,46 @@
+{
+  "intro": {
+    "titulo": "A comunidade é parte do projeto.",
+    "texto": "O NEXOVERSO está sendo montado aos poucos. Aqui você pode sugerir conteúdos, apontar erros, mandar ideias e ajudar a deixar a biblioteca mais organizada."
+  },
+  "como_funciona": [
+    {
+      "titulo": "📚 Sugira conteúdo",
+      "texto": "Tem um filme, série, desenho, documentário, programa ou jogo que deveria aparecer? Mande a sugestão."
+    },
+    {
+      "titulo": "🛠️ Achou algo errado?",
+      "texto": "Título, gênero, categoria, ano, link ou organização: qualquer correção ajuda a deixar o catálogo mais confiável."
+    },
+    {
+      "titulo": "💡 Dê ideias",
+      "texto": "A comunidade também serve para testar recursos novos. A ideia da vez pode virar parte do NEXOVERSO."
+    }
+  ],
+  "organizacao": [
+    {
+      "titulo": "Dados",
+      "texto": "Os conteúdos ficam em arquivos JSON separados para facilitar manutenção e crescimento do projeto."
+    },
+    {
+      "titulo": "Links externos",
+      "texto": "O NEXOVERSO organiza e redireciona para as mídias cadastradas; ele não precisa armazenar os vídeos localmente."
+    },
+    {
+      "titulo": "Capas",
+      "texto": "As capas continuam sendo a identidade visual de cada obra — é por isso que elas aparecem com destaque no catálogo."
+    }
+  ],
+  "status": {
+    "titulo": "Status do projeto",
+    "itens": [
+      "Catálogo modular em JSON",
+      "Filtros por categoria, subcategoria, tema, ano e gênero",
+      "Playlist com pesquisa por número ou nome",
+      "Tela intermediária opcional para temporada/episódio",
+      "Sistema de fontes e créditos"
+    ]
+  },
+  "posts": [],
+  "convite": "https://discord.com/"
+}

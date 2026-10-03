@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Episódio — NEXOVERSO</title>
+    <link rel="stylesheet" href="../../assets/css/base/reset.css" />
+    <link rel="stylesheet" href="../../assets/css/base/variaveis.css" />
+    <link rel="stylesheet" href="../../assets/css/base/base.css" />
+    <link rel="stylesheet" href="../../assets/css/components/header.css" />
+    <link
+      rel="stylesheet"
+      href="../../assets/css/components/menu_navegacao.css"
+    />
+    <link rel="stylesheet" href="../../assets/css/components/botoes.css" />
+    <link rel="stylesheet" href="../../assets/css/components/cards.css" />
+    <link rel="stylesheet" href="../../assets/css/components/footer.css" />
+    <link rel="stylesheet" href="../../assets/css/components/modais.css" />
+    <link rel="stylesheet" href="../../assets/css/pages/episodio.css" />
+    <link rel="stylesheet" href="../../assets/css/responsivo/responsivo.css" />
+    <link rel="stylesheet" href="../../assets/css/premium.css" />
+    <link rel="stylesheet" href="../../assets/css/modern-pages.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="nav-shell">
+        <a class="brand" href="../../">NEXO<span>VERSO</span></a>
+        <nav class="main-nav">
+          <a href="../../">Início</a><a href="../catalogo/">Catálogo</a
+          ><a href="../comunidade/">Comunidade</a>
+        </nav>
+        <div class="nav-tools">
+          <label class="search-box"
+            ><input
+              placeholder="Buscar conteúdos..."
+              onkeydown="
+                if (event.key === 'Enter')
+                  location.href =
+                    '../../paginas/catalogo/?q=' +
+                    encodeURIComponent(this.value);
+              " /><svg viewBox="0 0 24 24">
+              <circle cx="10.8" cy="10.8" r="6.7" />
+              <path d="m16 16 5 5" /></svg></label
+          ><button class="tool-icon" aria-label="Notificações">
+            <svg viewBox="0 0 24 24">
+              <path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9Z" />
+              <path d="M10 21h4" /></svg
+            ><i></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="page container narrow modern-page modern-episode-page">
+      <div id="episode-page"></div>
+    </main>
+    <footer>
+      <div class="footer-main">
+        <span>© 2026 NEXOVERSO. Todos os direitos reservados.</span>
+        <div>
+          <a href="../../">Início</a><b>•</b><a href="../catalogo/">Catálogo</a
+          ><b>•</b><a href="../comunidade/">Comunidade</a>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="../../assets/js/pages/episodio.js"></script>
+  </body>
+</html>

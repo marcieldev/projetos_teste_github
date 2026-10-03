@@ -1,0 +1,49 @@
+{
+  "itens": [
+    {
+      "id": "informacoes-sobre-meus-automoveis",
+      "titulo": "Informações sobre meus automóveis",
+      "categoria": "programa_televisao",
+      "subcategoria": "",
+      "generos": [
+        "Automóveis",
+        "Pneus"
+      ],
+      "sinopse": "Conteúdo relacionado a informações e experiências com automóveis.",
+      "classificacao": "Livre",
+      "imagem": "assets/img/poster-aster.svg",
+      "fontes": [
+        {
+          "nome": "Vagostelo",
+          "link": ""
+        }
+      ],
+      "conteudos": [
+        {
+          "titulo": "Por que pneus '60' têm alturas diferentes? O segredo do número que ninguém entende.",
+          "midia": {
+            "plataforma": "youtube",
+            "tipo": "video",
+            "destino": "externo",
+            "link": "https://www.youtube.com/watch?v=7dmCz0b5ibw&list=PLnEFxOQmAyUhO-JKa17wWm_Cw0s4xG5cZ",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 1,
+          "exibir_numero": true
+        }
+      ],
+      "organizacao": {
+        "caminho": [
+          "CANAL DE YOUTUBER",
+          "Informações sobre meus automóveis"
+        ],
+        "pasta_tematica": "automoveis"
+      },
+      "ano": null,
+      "tema": "automoveis"
+    }
+  ],
+  "categoria": "programa_televisao",
+  "tema": "automoveis"
+}

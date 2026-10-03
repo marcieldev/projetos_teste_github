@@ -1,0 +1,31 @@
+{
+  "itens": [
+    {
+      "id": "como-mudar-cor-painel-moto",
+      "titulo": "Como mudar a cor do painel de moto",
+      "categoria": "programa_televisao",
+      "subcategoria": "tutorial",
+      "generos": [
+        "Motocicletas",
+        "Personalização",
+        "Tecnologia"
+      ],
+      "sinopse": "Conteúdo cadastrado a partir da organização enviada. O link será inserido quando fornecido.",
+      "classificacao": "Livre",
+      "imagem": "assets/img/poster-aster.svg",
+      "fontes": [],
+      "conteudos": [],
+      "organizacao": {
+        "caminho": [
+          "CANAL DE YOUTUBER",
+          "COMO MUDAR A COR DO PAINEL DE MOTO"
+        ],
+        "pasta_tematica": "motocicletas"
+      },
+      "ano": null,
+      "tema": "motocicletas"
+    }
+  ],
+  "categoria": "programa_televisao",
+  "tema": "motocicletas"
+}

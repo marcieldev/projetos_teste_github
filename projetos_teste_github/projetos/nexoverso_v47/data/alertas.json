@@ -1,0 +1,12 @@
+{
+  "alertas": [
+    {
+      "id": "boas-vindas",
+      "titulo": "Bem-vindo ao NEXOVERSO",
+      "mensagem": "Confira o aviso de créditos e fontes ao entrar no site.",
+      "tipo": "info",
+      "data": "2026-09-06",
+      "ativo": true
+    }
+  ]
+}

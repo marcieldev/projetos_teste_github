@@ -1,0 +1,23 @@
+{
+  "site": {
+    "nome": "NEXOVERSO",
+    "descricao": "Biblioteca de entretenimento organizada por categoria, subcategoria, ano, gênero e letra inicial."
+  },
+  "discord": {
+    "convite": "https://discord.com/",
+    "texto": "Sugira filmes, séries, desenhos, documentários, programas de televisão e jogos diretamente no Discord."
+  },
+  "tipos": [
+    "filme",
+    "serie",
+    "desenho",
+    "documentario",
+    "programa_televisao",
+    "jogos"
+  ],
+  "creditos": {
+    "titulo": "Créditos e fontes",
+    "texto": "Alguns conteúdos, imagens, informações ou referências exibidos no NEXOVERSO podem ter origem em outras plataformas. As fontes são identificadas sempre que possível. O NEXOVERSO não declara afiliação com essas plataformas.",
+    "plataformas": []
+  }
+}

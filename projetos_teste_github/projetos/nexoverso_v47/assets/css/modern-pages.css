@@ -1,0 +1,157 @@
+/*
+ * NEXOVERSO — MODERN PAGES
+ * Camada visual exclusiva de Catálogo, Título e Episódio.
+ * Home e Comunidade não usam este arquivo.
+ */
+
+.modern-page{position:relative;isolation:isolate}
+.modern-page:before{content:"";position:absolute;inset:0 -4vw auto;height:420px;pointer-events:none;z-index:-1;background:radial-gradient(600px 260px at 12% 4%,rgba(57,232,255,.09),transparent 70%),radial-gradient(650px 300px at 88% 8%,rgba(139,92,246,.10),transparent 72%);filter:blur(.2px)}
+
+/* ---------- CATALOG ---------- */
+.modern-catalog-page{padding-top:34px}
+.modern-catalog-page .page-head{position:relative;margin:0 0 28px;padding:34px 38px 32px;min-height:190px;align-items:end;border:1px solid rgba(148,163,184,.13);border-radius:26px;background:linear-gradient(135deg,rgba(11,18,31,.90),rgba(6,10,18,.78));box-shadow:0 24px 70px rgba(0,0,0,.28);overflow:hidden}
+.modern-catalog-page .page-head:before{content:"";position:absolute;width:360px;height:360px;right:-130px;top:-190px;border-radius:50%;background:radial-gradient(circle,rgba(57,232,255,.16),transparent 68%)}
+.modern-catalog-page .page-head:after{content:"";position:absolute;inset:auto 0 0;height:1px;background:linear-gradient(90deg,transparent,rgba(57,232,255,.35),rgba(139,92,246,.28),transparent)}
+.modern-catalog-page .page-head>div{position:relative;z-index:1;max-width:830px}
+.modern-catalog-page .eyebrow{font-size:10px;letter-spacing:.16em;margin-bottom:11px}
+.modern-catalog-page .page-head h1{font-size:clamp(40px,5vw,72px);line-height:.94;letter-spacing:-.055em;text-wrap:balance}
+.modern-catalog-page .page-head p:not(.eyebrow){margin:14px 0 0;color:#93a3b8;font-size:14px;line-height:1.7;max-width:680px}
+.modern-catalog-page .page-head .search{align-self:center;position:relative;z-index:2;width:min(360px,30vw);height:50px;border-radius:15px;background:rgba(3,8,16,.72);border-color:rgba(148,163,184,.18);box-shadow:0 15px 40px rgba(0,0,0,.22)}
+
+.modern-catalog-page .catalog-toolbar{position:relative;z-index:20;margin:0 0 12px;padding:15px;border-radius:20px;background:rgba(8,14,24,.76);border:1px solid rgba(148,163,184,.13);box-shadow:0 20px 55px rgba(0,0,0,.20);backdrop-filter:blur(18px)}
+.modern-catalog-page .catalog-toolbar .filter-row{gap:8px}
+.modern-catalog-page .catalog-toolbar select,.modern-catalog-page .filter-select{min-height:42px;border-radius:12px;background:rgba(13,22,36,.92);border-color:rgba(148,163,184,.16);transition:.2s}
+.modern-catalog-page .catalog-toolbar select:hover,.modern-catalog-page .filter-select:hover{border-color:rgba(57,232,255,.32);background:rgba(17,29,46,.95)}
+.modern-catalog-page .catalog-toolbar select:focus,.modern-catalog-page .filter-select:focus-within{border-color:rgba(57,232,255,.55);box-shadow:0 0 0 4px rgba(57,232,255,.07)}
+.modern-catalog-page .sort-control{padding:0 3px 2px;color:#71839a}
+.modern-catalog-page .sort-control select{min-height:42px}
+.modern-catalog-page .active-filters{padding:0 3px;margin:10px 0 8px}
+.modern-catalog-page .active-filter,.modern-catalog-page .clear-filters{background:rgba(57,232,255,.055);border-color:rgba(57,232,255,.18);padding:7px 10px}
+.modern-catalog-page .catalog-summary{margin:13px 3px 15px;font-size:12px;color:#74869d}
+
+.modern-catalog-page .grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;z-index:1}
+.modern-catalog-page .card{position:relative;border-radius:18px;background:linear-gradient(180deg,rgba(14,22,36,.96),rgba(7,12,21,.98));border-color:rgba(148,163,184,.13);box-shadow:0 14px 35px rgba(0,0,0,.20);transition:transform .28s ease,border-color .28s ease,box-shadow .28s ease}
+.modern-catalog-page .card:after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:linear-gradient(135deg,rgba(255,255,255,.035),transparent 35%,rgba(57,232,255,.025));opacity:.8}
+.modern-catalog-page .card:hover{transform:translateY(-7px);border-color:rgba(57,232,255,.36);box-shadow:0 26px 65px rgba(0,0,0,.36),0 0 0 1px rgba(57,232,255,.04)}
+.modern-catalog-page .poster{aspect-ratio:16/9;transition:transform .45s cubic-bezier(.2,.7,.2,1),filter .35s}
+.modern-catalog-page .card:hover .poster{transform:scale(1.035);filter:saturate(1.04) brightness(1.03)}
+.modern-catalog-page .card-body{padding:16px 16px 17px}
+.modern-catalog-page .card-type{font-size:9px;letter-spacing:.13em}
+.modern-catalog-page .card h3{font-size:15px;line-height:1.3;margin:7px 0 6px;letter-spacing:-.01em}
+.modern-catalog-page .card p{font-size:11px;line-height:1.55;color:#8294aa}
+.modern-catalog-page .meta{font-size:10px;margin-top:10px;color:#6f829a}
+.modern-catalog-page .collection-badge{top:12px;right:12px;padding:6px 9px;border-radius:999px;background:rgba(4,10,18,.82);backdrop-filter:blur(10px);box-shadow:0 8px 20px rgba(0,0,0,.22)}
+.modern-catalog-page .pagination{margin-top:30px;padding:9px;width:max-content;max-width:100%;margin-left:auto;margin-right:auto;border:1px solid rgba(148,163,184,.12);border-radius:16px;background:rgba(8,14,24,.68);box-shadow:0 15px 40px rgba(0,0,0,.2)}
+.modern-catalog-page .page-btn{min-width:38px;height:38px;border-radius:11px;background:transparent;border-color:transparent;transition:.18s}
+.modern-catalog-page .page-btn:hover,.modern-catalog-page .page-btn.active{background:rgba(57,232,255,.09);border-color:rgba(57,232,255,.25)}
+
+/* Dropdown de gêneros: continua sempre acima dos cards. */
+.modern-catalog-page .catalog-toolbar,.modern-catalog-page .genre-filter,.modern-catalog-page .genre-menu{isolation:isolate}
+.modern-catalog-page .genre-menu{z-index:9999!important;background:rgba(6,12,22,.97);border-color:rgba(148,163,184,.2);box-shadow:0 30px 80px rgba(0,0,0,.62),0 0 0 1px rgba(57,232,255,.04);backdrop-filter:blur(22px)}
+
+/* ---------- TITLE / DETAIL ---------- */
+.modern-title-page{padding-top:42px}
+.modern-title-page #detail{display:grid;gap:38px}
+.modern-title-page .detail{position:relative;grid-template-columns:minmax(280px,390px) 1fr;gap:48px;padding:34px;border:1px solid rgba(148,163,184,.13);border-radius:28px;background:linear-gradient(125deg,rgba(10,17,29,.94),rgba(6,10,18,.78));box-shadow:0 28px 90px rgba(0,0,0,.32);overflow:hidden}
+.modern-title-page .detail:before{content:"";position:absolute;inset:0;background:radial-gradient(550px 300px at 82% 25%,rgba(139,92,246,.08),transparent 70%),linear-gradient(90deg,rgba(57,232,255,.025),transparent 35%);pointer-events:none}
+.modern-title-page .detail>div{position:relative;z-index:1}
+.modern-title-page .detail>div:first-child{justify-content:flex-start;align-items:flex-start}
+.modern-title-page .detail>div:first-child .poster{width:100%;max-height:520px;border-radius:19px;border:1px solid rgba(255,255,255,.10);box-shadow:0 25px 55px rgba(0,0,0,.42);background:#080e18}
+.modern-title-page .detail>div:nth-child(2){padding:10px 4px 5px}
+.modern-title-page .detail h1{font-size:clamp(42px,5vw,76px);line-height:.91;margin:9px 0 16px;letter-spacing:-.06em;max-width:950px;text-wrap:balance}
+.modern-title-page .detail .meta{gap:7px;margin:0 0 14px;color:#8294aa}
+.modern-title-page .detail-copy{font-size:14px;line-height:1.8;color:#9aa9bc;max-width:820px;margin-top:18px}
+.modern-title-page .detail-content-type{background:rgba(255,255,255,.035);border-color:rgba(148,163,184,.16);padding:6px 10px;color:#9bacbf}
+.modern-title-page .genre-pill{padding:6px 9px;border-color:rgba(57,232,255,.14);background:rgba(57,232,255,.035);color:#9eb2c9}
+.modern-title-page .source-profile{max-width:820px;margin-top:24px;padding:14px 16px;border-radius:16px;background:rgba(255,255,255,.028);border-color:rgba(148,163,184,.13);box-shadow:0 12px 30px rgba(0,0,0,.18)}
+.modern-title-page .episodes{margin-top:0;padding:30px;border:1px solid rgba(148,163,184,.12);border-radius:24px;background:rgba(8,14,24,.58);box-shadow:0 22px 65px rgba(0,0,0,.20)}
+.modern-title-page .section-head h2{font-size:26px;letter-spacing:-.025em;margin-bottom:6px}
+.modern-title-page .section-copy{font-size:12px;line-height:1.65;max-width:760px;color:#7f91a8}
+.modern-title-page .playlist-tools{margin:22px 0 15px;padding:10px;border-radius:14px;background:rgba(4,9,17,.68);border-color:rgba(148,163,184,.12)}
+.modern-title-page .playlist-search{height:44px;border-radius:11px;background:rgba(255,255,255,.035);border-color:rgba(148,163,184,.14)}
+.modern-title-page .episodes-list{gap:10px}
+.modern-title-page .episode-card{min-height:122px;border-radius:16px;background:linear-gradient(100deg,rgba(14,23,38,.88),rgba(7,12,21,.94));border-color:rgba(148,163,184,.12);transition:.22s;box-shadow:0 10px 28px rgba(0,0,0,.13)}
+.modern-title-page .episode-card:hover{transform:translateX(4px);border-color:rgba(57,232,255,.28);box-shadow:0 16px 38px rgba(0,0,0,.25)}
+.modern-title-page .episode-thumb{min-height:122px;background:#0b1421}
+.modern-title-page .episode-card-body{padding:16px}
+.modern-title-page .playlist-number{border-radius:9px;background:rgba(255,255,255,.045);color:#6f829a}
+.modern-title-page .episode-card h3{font-size:14px}
+.modern-title-page .episode-card p{color:#788ba3}
+
+/* ---------- EPISODE / EXTERNAL MEDIA ---------- */
+.modern-episode-page{padding-top:34px}
+.modern-episode-page .episode-shell{max-width:1260px;gap:20px}
+.modern-episode-page .episode-page-heading{position:relative;padding:25px 28px 20px;margin-bottom:2px;border:1px solid rgba(148,163,184,.12);border-radius:22px;background:rgba(8,14,24,.64);box-shadow:0 18px 55px rgba(0,0,0,.18);overflow:hidden}
+.modern-episode-page .episode-page-heading:after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,rgba(57,232,255,.32),transparent)}
+.modern-episode-page .episode-page-heading h1{font-size:clamp(38px,5vw,68px);letter-spacing:-.055em;line-height:.94;margin:7px 0 0;max-width:1000px;text-wrap:balance}
+.modern-episode-page .episode-page-identification{font-size:11px;color:#7f91a8;letter-spacing:.04em}
+.modern-episode-page .intermediate-layout{grid-template-columns:minmax(0,1fr) 340px;gap:20px;align-items:stretch}
+.modern-episode-page .intermediate-main{padding:10px;border:1px solid rgba(148,163,184,.12);border-radius:24px;background:rgba(6,11,19,.72);box-shadow:0 28px 80px rgba(0,0,0,.28)}
+.modern-episode-page .external-poster-link{aspect-ratio:16/9;border-radius:17px;border-color:rgba(255,255,255,.10);box-shadow:none;background:#050a12}
+.modern-episode-page .external-poster-link img{transition:transform .55s cubic-bezier(.2,.7,.2,1),filter .35s}
+.modern-episode-page .external-poster-overlay{background:linear-gradient(180deg,rgba(2,6,12,.08),rgba(2,6,12,.82))}
+.modern-episode-page .external-poster-overlay strong{width:78px;height:78px;background:linear-gradient(135deg,#22d9ef,#765bff);box-shadow:0 18px 50px rgba(78,75,255,.35);font-size:26px;transition:.25s}
+.modern-episode-page .external-poster-overlay b{font-size:12px;letter-spacing:.16em}
+.modern-episode-page .external-poster-link:hover .external-poster-overlay strong{transform:scale(1.07);box-shadow:0 20px 60px rgba(78,75,255,.48)}
+.modern-episode-page .external-poster-note{margin:14px auto 5px;color:#71839a}
+.modern-episode-page .intermediate-info{padding:24px;border-radius:22px;background:linear-gradient(160deg,rgba(13,22,36,.9),rgba(7,12,21,.9));border-color:rgba(148,163,184,.13);box-shadow:0 24px 60px rgba(0,0,0,.24)}
+.modern-episode-page .intermediate-info h2{font-size:25px;letter-spacing:-.025em;line-height:1.08;margin:7px 0 15px}
+.modern-episode-page .intermediate-meta{gap:7px;color:#7f91a8}
+.modern-episode-page .intermediate-genres{margin:17px 0}
+.modern-episode-page .intermediate-tag{padding:6px 9px;border-color:rgba(57,232,255,.13);background:rgba(57,232,255,.035);color:#94a8c0}
+.modern-episode-page .intermediate-synopsis{font-size:13px;line-height:1.75;color:#8799b0}
+.modern-episode-page .episode-navigation{justify-content:flex-end;margin-top:2px;padding:12px;border:1px solid rgba(148,163,184,.11);border-radius:17px;background:rgba(8,14,24,.54)}
+.modern-episode-page .episode-navigation .btn{min-width:138px;border-color:rgba(148,163,184,.15);background:rgba(255,255,255,.035)}
+.modern-episode-page .episode-navigation .btn.primary{background:linear-gradient(135deg,#1bd9ef,#7865ff)}
+
+/* ---------- SHARED POLISH ---------- */
+.modern-page .btn{border-radius:12px;min-height:42px}
+.modern-page a:focus-visible,.modern-page button:focus-visible,.modern-page input:focus-visible,.modern-page select:focus-visible{outline:2px solid rgba(57,232,255,.7);outline-offset:3px}
+.modern-page ::selection{background:rgba(57,232,255,.24);color:#fff}
+
+@media(max-width:1100px){
+  .modern-catalog-page .grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .modern-title-page .detail{grid-template-columns:minmax(240px,310px) 1fr;gap:30px}
+  .modern-episode-page .intermediate-layout{grid-template-columns:minmax(0,1fr) 300px}
+}
+@media(max-width:850px){
+  .modern-catalog-page .page-head{display:block;padding:28px}
+  .modern-catalog-page .page-head .search{width:100%;margin-top:22px}
+  .modern-catalog-page .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .modern-title-page .detail{grid-template-columns:1fr;padding:24px;gap:24px}
+  .modern-title-page .detail>div:first-child .poster{max-width:360px}
+  .modern-episode-page .intermediate-layout{grid-template-columns:1fr}
+  .modern-episode-page .intermediate-info{order:2}
+}
+@media(max-width:620px){
+  .modern-catalog-page,.modern-title-page,.modern-episode-page{padding-top:20px}
+  .modern-catalog-page .page-head{padding:24px 20px;border-radius:20px}
+  .modern-catalog-page .page-head h1{font-size:42px}
+  .modern-catalog-page .catalog-toolbar{padding:11px;border-radius:16px}
+  .modern-catalog-page .catalog-toolbar .filter-row{display:grid;grid-template-columns:1fr 1fr}
+  .modern-catalog-page .catalog-toolbar .filter-row>*{min-width:0}
+  .modern-catalog-page .sort-control{margin-top:8px}
+  .modern-catalog-page .grid{gap:12px}
+  .modern-catalog-page .card{border-radius:15px}
+  .modern-catalog-page .card-body{padding:12px}
+  .modern-title-page .detail{padding:18px;border-radius:20px}
+  .modern-title-page .detail h1{font-size:42px}
+  .modern-title-page .episodes{padding:18px;border-radius:20px}
+  .modern-title-page .episode-card{grid-template-columns:105px 1fr;min-height:98px}
+  .modern-title-page .episode-thumb{min-height:98px}
+  .modern-episode-page .episode-page-heading{padding:21px 20px 18px;border-radius:18px}
+  .modern-episode-page .episode-page-heading h1{font-size:42px}
+  .modern-episode-page .intermediate-main{padding:7px;border-radius:19px}
+  .modern-episode-page .external-poster-link{border-radius:14px;aspect-ratio:4/3}
+  .modern-episode-page .intermediate-info{padding:19px;border-radius:18px}
+  .modern-episode-page .episode-navigation{justify-content:stretch}
+  .modern-episode-page .episode-navigation .btn{flex:1;min-width:0}
+}
+@media(max-width:420px){
+  .modern-catalog-page .catalog-toolbar .filter-row{grid-template-columns:1fr}
+  .modern-catalog-page .grid{grid-template-columns:1fr}
+  .modern-title-page .episode-card{grid-template-columns:1fr}
+  .modern-title-page .episode-thumb{min-height:145px}
+  .modern-episode-page .episode-navigation{display:grid;grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){.modern-page *, .modern-page *:before, .modern-page *:after{transition:none!important;animation:none!important}}

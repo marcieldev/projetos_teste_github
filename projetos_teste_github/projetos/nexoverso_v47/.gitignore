@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.tmp
+.vscode/
+# Mídias pesadas locais — os vídeos agora ficam fora do GitHub.
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#05070d" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta
+      name="description"
+      content="NEXOVERSO — sua biblioteca de entretenimento."
+    />
+    <title>NEXOVERSO — Biblioteca de entretenimento</title>
+    <link rel="stylesheet" href="assets/css/base/reset.css" />
+    <link rel="stylesheet" href="assets/css/base/variaveis.css" />
+    <link rel="stylesheet" href="assets/css/base/base.css" />
+    <link rel="stylesheet" href="assets/css/components/header.css" />
+    <link rel="stylesheet" href="assets/css/components/menu_navegacao.css" />
+    <link rel="stylesheet" href="assets/css/components/botoes.css" />
+    <link rel="stylesheet" href="assets/css/components/cards.css" />
+    <link rel="stylesheet" href="assets/css/components/footer.css" />
+    <link rel="stylesheet" href="assets/css/components/modais.css" />
+    <link rel="stylesheet" href="assets/css/pages/home.css" />
+    <link rel="stylesheet" href="assets/css/responsivo/responsivo.css" />
+    <link rel="stylesheet" href="assets/css/premium.css" />
+  </head>
+  <body>
+    <noscript
+      ><div class="noscript-banner">
+        Ative o JavaScript para usar o NEXOVERSO.
+      </div></noscript
+    >
+    <header class="topbar">
+      <div class="nav-shell">
+        <a class="brand" href="./">NEXO<span>VERSO</span></a>
+        <nav class="main-nav">
+          <a class="active" href="./"
+            ><svg viewBox="0 0 24 24">
+              <path
+                d="M3 10.8 12 3l9 7.8v9.2a1 1 0 0 1-1 1h-5.5v-6h-5v6H4a1 1 0 0 1-1-1z"
+              /></svg
+            >Início</a
+          >
+          <a href="paginas/catalogo/"
+            ><svg viewBox="0 0 24 24">
+              <rect x="4" y="4" width="6" height="6" rx="1" />
+              <rect x="14" y="4" width="6" height="6" rx="1" />
+              <rect x="4" y="14" width="6" height="6" rx="1" />
+              <rect x="14" y="14" width="6" height="6" rx="1" /></svg
+            >Catálogo</a
+          >
+          <a href="paginas/comunidade/"
+            ><svg viewBox="0 0 24 24">
+              <path
+                d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5 8.7 8.7 0 0 1-3.1-.57L4 20l1.57-4.06A7.43 7.43 0 0 1 5 11.5 7.5 7.5 0 0 1 12.5 4 7.5 7.5 0 0 1 20 11.5Z"
+              />
+              <path d="M9 12h.01M12 12h.01M15 12h.01" /></svg
+            >Comunidade</a
+          >
+        </nav>
+        <div class="nav-tools">
+          <label class="search-box"
+            ><input id="global-search" placeholder="Buscar conteúdos..." /><svg
+              viewBox="0 0 24 24"
+            >
+              <circle cx="10.8" cy="10.8" r="6.7" />
+              <path d="m16 16 5 5" /></svg
+          ></label>
+          <button class="tool-icon" aria-label="Notificações">
+            <svg viewBox="0 0 24 24">
+              <path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9Z" />
+              <path d="M10 21h4" /></svg
+            ><i></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <section class="hero" id="heroFeatured" aria-label="Destaques">
+        <div id="heroMedia" class="hero-media-layer"></div>
+        <div class="hero-overlay"></div>
+        <button
+          class="hero-arrow left"
+          id="heroPrev"
+          aria-label="Destaque anterior"
+        >
+          ‹
+        </button>
+        <button
+          class="hero-arrow right"
+          id="heroNext"
+          aria-label="Próximo destaque"
+        >
+          ›
+        </button>
+        <div class="hero-content">
+          <p class="eyebrow" id="heroEyebrow">DESTAQUE</p>
+          <h1>A SUA BIBLIOTECA DE<br /><span>ENTRETENIMENTO</span></h1>
+          <p class="hero-subtitle">Histórias para todos os mundos.</p>
+          <p class="hero-description">
+            Filmes, séries, desenhos animados, programas de televisão,
+            documentários e jogos organizados por categoria, subcategoria, ano e
+            gênero.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="paginas/catalogo/"
+              ><b>▶</b> Explorar catálogo</a
+            ><a class="btn ghost" href="paginas/comunidade/"
+              ><b>♧</b> Sugestões &amp; comunidade</a
+            >
+          </div>
+        </div>
+        <button class="hero-play" id="heroPlay" aria-label="Abrir destaque">
+          ▶
+        </button>
+        <div class="hero-feature-card">
+          <h2 id="heroTitle">Carregando...</h2>
+          <div class="feature-meta" id="heroMeta"></div>
+          <p id="heroDescription">Aguarde o carregamento do destaque.</p>
+          <a class="watch-link" id="heroWatch" href="paginas/catalogo/"
+            >▶ &nbsp; ASSISTIR AGORA</a
+          >
+        </div>
+        <div class="hero-dots" id="heroDots"></div>
+      </section>
+
+      <section class="section highlights">
+        <div class="section-head">
+          <h2><span></span>DESTAQUES</h2>
+          <div class="carousel-controls">
+            <button id="featuredPrev">‹</button
+            ><button id="featuredNext">›</button>
+          </div>
+        </div>
+        <div id="featured" class="highlight-grid"></div>
+      </section>
+
+      <section class="section categories">
+        <h2><span></span>NAVEGUE POR CATEGORIA</h2>
+        <div class="category-grid">
+          <a class="type-film" href="paginas/catalogo/?categoria=filme"
+            ><b class="cat-icon">◉</b><strong>FILMES</strong></a
+          >
+          <a class="type-serie" href="paginas/catalogo/?categoria=serie"
+            ><b class="cat-icon">▣</b><strong>SÉRIES</strong></a
+          >
+          <a class="type-desenho" href="paginas/catalogo/?categoria=desenho"
+            ><b class="cat-icon">◉</b><strong>DESENHOS ANIMADOS</strong></a
+          >
+          <a
+            class="type-programa"
+            href="paginas/catalogo/?categoria=programa_televisao"
+            ><b class="cat-icon">▤</b><strong>PROGRAMAS DE TELEVISÃO</strong></a
+          >
+          <a class="type-doc" href="paginas/catalogo/?categoria=documentario"
+            ><b class="cat-icon">▥</b><strong>DOCUMENTÁRIOS</strong></a
+          >
+          <a class="type-jogos" href="paginas/catalogo/?categoria=jogos"
+            ><b class="cat-icon">☆</b><strong>JOGOS</strong></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-main">
+        <span>© 2026 NEXOVERSO. Todos os direitos reservados.</span>
+        <div>
+          <a href="paginas/comunidade/">Sobre nós</a><b>•</b
+          ><a href="paginas/comunidade/">Termos de uso</a><b>•</b
+          ><a href="paginas/comunidade/">Privacidade</a><b>•</b
+          ><a href="paginas/comunidade/">Contato</a>
+        </div>
+      </div>
+      <div class="socials">
+        <span>◉</span><span>◎</span><span>▷</span><span>✉</span>
+      </div>
+    </footer>
+    <script type="module" src="assets/js/pages/home.js"></script>
+  </body>
+</html>

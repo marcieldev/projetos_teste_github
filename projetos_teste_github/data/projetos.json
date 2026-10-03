@@ -1,0 +1,27 @@
+{
+  "versao": "1.0.0",
+  "projetos": [
+    {
+      "id": "nexoverso-v47",
+      "nome": "NEXOVERSO",
+      "versao": "v7",
+      "descricao": "Projeto em desenvolvimento para testar catálogo, navegação, dados, páginas e experiência do NEXOVERSO.",
+      "status": "aguardando",
+      "categoria": "Projeto web",
+      "ultimaAtualizacao": "2026-10-03",
+      "caminho": "projetos/nexoverso_v47/",
+      "observacao": "Use este ambiente para validar o comportamento antes de considerar a versão concluída."
+    },
+    {
+      "id": "MSA_Projects_version_8",
+      "nome": "MSA PROJECTS",
+      "versao": "v8",
+      "descricao": "Esse projeto e para centralizar os meus projetos finalizados ou estão na etapa final de sair dos testes",
+      "status": "aprovado",
+      "categoria": "Projeto web",
+      "ultimaAtualizacao": "2026-08-29",
+      "caminho": "projetos/MSA_Projects_version_8/",
+      "observacao": "Use este ambiente para validar o comportamento antes de considerar a versão concluída."
+    }
+  ]
+}

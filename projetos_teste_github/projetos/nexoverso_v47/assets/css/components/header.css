@@ -1,0 +1,6 @@
+/* HEADER — somente superfície e estrutura do cabeçalho */
+.topbar{height:52px;border-bottom:1px solid rgba(145,167,202,.16);background:rgba(2,7,16,.96);position:sticky;top:0;z-index:30}.nav-shell{height:52px;max-width:1545px;width:calc(100% - 88px);margin:auto;display:flex;align-items:center}.brand{font-size:24px;font-weight:950;letter-spacing:.105em;margin-right:42px}.brand span{color:#00cfe9}.nav-tools{margin-left:auto;display:flex;align-items:center;gap:19px}.profile{border:1px solid #66758a;border-radius:50%;width:29px;height:29px}.profile svg{width:22px;height:22px}
+.tool-icon{position:relative;width:34px;height:34px;border:1px solid rgba(145,167,202,.18);border-radius:50%;background:#020812;display:grid;place-items:center;cursor:pointer;color:#eef6ff}.tool-icon svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.tool-icon i{position:absolute;right:5px;top:5px;width:6px;height:6px;border-radius:50%;background:#00e5ff;box-shadow:0 0 8px rgba(0,229,255,.65)}
+
+/* Removido: avatar/perfil circular antigo do cabeçalho. */
+.profile{display:none!important}

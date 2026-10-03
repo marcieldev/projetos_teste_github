@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Central de Projetos em Teste</title>
+    <meta
+      name="description"
+      content="Central para testar projetos publicados no GitHub Pages diretamente pelo navegador."
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./"
+        ><span class="brand-mark">⌁</span><span>Projetos em Teste</span></a
+      >
+      <div class="top-actions">
+        <button id="refreshBtn" class="ghost-btn" type="button">
+          ↻ Atualizar
+        </button>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">AMBIENTE DE VALIDAÇÃO</p>
+          <h1>Teste seus projetos<br /><span>direto no navegador.</span></h1>
+          <p class="hero-text">
+            Escolha um projeto publicado no GitHub Pages, abra a versão de teste
+            e verifique visual, navegação, dados e funcionalidades antes de
+            enviá-lo para os projetos concluídos.
+          </p>
+        </div>
+        <div class="hero-badge">
+          <strong id="projectCount">0</strong
+          ><span>projetos<br />cadastrados</span>
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="Filtros de projetos">
+        <label class="search"
+          ><span>⌕</span
+          ><input
+            id="searchInput"
+            type="search"
+            placeholder="Pesquisar projeto..."
+            autocomplete="off"
+        /></label>
+        <select id="statusFilter" aria-label="Filtrar por status">
+          <option value="todos">Todos os status</option>
+          <option value="em-teste">Em teste</option>
+          <option value="desenvolvimento">Em desenvolvimento</option>
+          <option value="aguardando">Aguardando revisão</option>
+          <option value="aprovado">Aprovado</option>
+          <option value="problemas">Com problemas</option>
+        </select>
+      </section>
+
+      <div id="notice" class="notice" hidden></div>
+      <section
+        id="projectsGrid"
+        class="projects-grid"
+        aria-live="polite"
+      ></section>
+      <div id="emptyState" class="empty" hidden>
+        <div class="empty-icon">⌁</div>
+        <h2>Nenhum projeto encontrado</h2>
+        <p>
+          Adicione um projeto em <code>data/projetos.json</code> ou ajuste sua
+          pesquisa.
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <span>Central de Projetos em Teste</span
+      ><span>GitHub Pages · Ambiente de validação</span>
+    </footer>
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>

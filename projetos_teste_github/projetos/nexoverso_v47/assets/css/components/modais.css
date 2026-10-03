@@ -1,0 +1,45 @@
+/* MODAIS — overlays globais e onboarding premium */
+.nexo-modal-backdrop{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;padding:20px;background:rgba(2,5,12,.78);backdrop-filter:blur(18px) saturate(125%);animation:nexoModalIn .22s ease both}
+.nexo-modal-backdrop.is-closing{animation:nexoModalOut .18s ease both}
+.nexo-modal{position:relative;width:min(760px,100%);max-height:min(88vh,820px);overflow:auto;background:linear-gradient(145deg,rgba(15,24,40,.98),rgba(6,12,22,.99));border:1px solid rgba(125,153,201,.2);border-radius:24px;box-shadow:0 40px 120px rgba(0,0,0,.62),0 0 0 1px rgba(0,229,255,.025) inset;color:var(--text);padding:30px;scrollbar-width:thin}
+.nexo-modal:before{content:"";position:absolute;inset:0 0 auto;height:150px;border-radius:24px 24px 0 0;background:radial-gradient(circle at 18% 0,rgba(57,232,255,.13),transparent 48%),radial-gradient(circle at 82% 0,rgba(139,92,246,.16),transparent 48%);pointer-events:none}
+.nexo-modal h2{position:relative;margin:4px 44px 12px 0;font-size:clamp(27px,4vw,39px);line-height:1.08;letter-spacing:-.035em}
+.nexo-modal p{position:relative;color:#aebbd0;line-height:1.7}
+.nexo-modal .nexo-close{position:absolute;z-index:2;right:18px;top:18px;width:36px;height:36px;border-radius:11px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.045);color:#fff;font-size:21px;cursor:pointer;transition:.18s ease}
+.nexo-modal .nexo-close:hover,.nexo-modal .nexo-close:focus-visible{background:rgba(255,255,255,.1);border-color:rgba(57,232,255,.4);transform:translateY(-1px)}
+.nexo-modal-progress{position:relative;display:flex;gap:7px;width:120px;margin:0 0 24px}
+.nexo-modal-progress span{height:4px;flex:1;border-radius:999px;background:rgba(255,255,255,.09);transition:.25s ease}
+.nexo-modal-progress span.is-active{background:linear-gradient(90deg,var(--cyan),var(--purple))}
+.nexo-welcome-step{display:none;position:relative;min-height:420px;animation:nexoStepIn .24s ease both}
+.nexo-welcome-step.is-active{display:block}
+.nexo-welcome-icon,.nexo-section-icon{display:grid;place-items:center;width:62px;height:62px;margin-bottom:18px;border-radius:18px;background:linear-gradient(145deg,rgba(57,232,255,.13),rgba(139,92,246,.16));border:1px solid rgba(57,232,255,.2);box-shadow:0 15px 45px rgba(0,0,0,.22)}
+.nexo-welcome-icon svg,.nexo-section-icon svg{width:29px;height:29px;fill:none;stroke:var(--cyan);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.nexo-section-icon-warning{background:rgba(255,190,70,.08);border-color:rgba(255,190,70,.2)}
+.nexo-section-icon-warning svg{stroke:#ffc15a}
+.nexo-modal .eyebrow{margin:0 0 7px;color:var(--cyan);font-size:11px;font-weight:900;letter-spacing:.14em}
+.nexo-lead{font-size:16px;max-width:640px}
+.nexo-welcome-grid{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:25px}
+.nexo-welcome-grid article{display:flex;gap:11px;padding:15px;border:1px solid rgba(148,163,184,.12);border-radius:15px;background:rgba(255,255,255,.035)}
+.nexo-mini-icon{display:grid;place-items:center;flex:0 0 34px;height:34px;border-radius:10px;background:rgba(57,232,255,.08);color:var(--cyan)}
+.nexo-mini-icon svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.nexo-welcome-grid b{display:block;font-size:13px}.nexo-welcome-grid small{display:block;margin-top:4px;color:#8290a5;line-height:1.45;font-size:11px}
+.nexo-attention-box{position:relative;padding:18px 19px;margin:22px 0;border-radius:16px;background:linear-gradient(135deg,rgba(255,182,70,.08),rgba(255,255,255,.025));border:1px solid rgba(255,193,90,.2)}
+.nexo-attention-box strong{display:flex;align-items:center;gap:9px;color:#ffd27c;font-size:14px}.nexo-attention-box strong svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.nexo-attention-box p{margin:9px 0 0;color:#b7c1d0;font-size:13px}
+.nexo-check-list{position:relative;display:grid;gap:10px;margin:18px 0;padding:0;list-style:none}.nexo-check-list li{display:flex;gap:10px;align-items:flex-start;color:#b7c2d3;font-size:13px;line-height:1.5}.nexo-check-list svg{flex:0 0 17px;width:17px;height:17px;margin-top:1px;fill:none;stroke:#64e9d4;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.nexo-source-note{font-size:11px!important;color:#75849a!important;padding-top:10px;border-top:1px solid rgba(255,255,255,.07)}
+.nexo-platforms{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}.nexo-platforms span{padding:6px 9px;border-radius:999px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.08);color:#8f9eb3;font-size:10px}
+.nexo-community-callout{position:relative;display:grid;gap:5px;padding:15px 16px;margin:20px 0;border-radius:15px;background:linear-gradient(135deg,rgba(57,232,255,.065),rgba(139,92,246,.08));border:1px solid rgba(57,232,255,.13)}
+.nexo-community-callout b{font-size:13px}.nexo-community-callout span{color:#8795aa;font-size:12px}
+.nexo-suggestion-guide{position:relative;padding:17px;border-radius:16px;background:rgba(255,255,255,.028);border:1px solid rgba(148,163,184,.12)}
+.nexo-guide-title{display:flex;align-items:center;gap:9px;font-size:11px;letter-spacing:.08em}.nexo-guide-title span{display:grid;place-items:center;width:25px;height:25px;border-radius:8px;background:rgba(100,233,212,.09);color:#64e9d4}.nexo-guide-title svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.nexo-suggestion-guide p{margin:9px 0;font-size:12px}.nexo-suggestion-guide ol{margin:9px 0 10px;padding-left:21px;color:#aab6c7;font-size:12px;line-height:1.7}.nexo-suggestion-guide small{display:block;color:#748297;line-height:1.5;font-size:10px}
+.nexo-discord-btn{position:relative;margin-top:15px;text-decoration:none}.nexo-discord-btn svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.nexo-welcome-footer{position:relative;display:flex;align-items:center;justify-content:space-between;gap:14px;margin-top:25px;padding-top:18px;border-top:1px solid rgba(255,255,255,.08)}
+.nexo-step-label{color:#708097;font-size:11px;font-weight:700}.nexo-welcome-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}.nexo-welcome-actions .btn{min-height:40px;font-size:12px}.nexo-welcome-actions .btn[hidden]{display:none}
+.nexo-credit-list{display:grid;gap:9px;margin:18px 0}.nexo-credit-item{padding:12px 14px;border:1px solid rgba(255,255,255,.10);border-radius:10px;background:#091322}.nexo-credit-item b{display:block;color:#fff}.nexo-credit-item a{color:var(--cyan);word-break:break-all;font-size:12px}
+.nexo-alert-panel{position:fixed;z-index:998;right:24px;top:70px;width:min(390px,calc(100% - 32px));background:#08111e;border:1px solid rgba(0,229,255,.2);border-radius:14px;box-shadow:0 22px 60px rgba(0,0,0,.5);padding:15px;display:none}.nexo-alert-panel.open{display:block}.nexo-alert{padding:12px;border-top:1px solid rgba(255,255,255,.08)}.nexo-alert:first-of-type{border-top:0}.nexo-alert b{display:block}.nexo-alert small{color:#7f90a5}
+@keyframes nexoModalIn{from{opacity:0}to{opacity:1}}
+@keyframes nexoModalOut{from{opacity:1}to{opacity:0}}
+@keyframes nexoStepIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media(max-width:700px){.nexo-modal-backdrop{padding:10px}.nexo-modal{max-height:92vh;padding:22px;border-radius:20px}.nexo-modal:before{border-radius:20px 20px 0 0}.nexo-welcome-step{min-height:0}.nexo-welcome-grid{grid-template-columns:1fr}.nexo-modal h2{font-size:28px}.nexo-welcome-footer{align-items:flex-end}.nexo-welcome-actions{gap:6px}.nexo-welcome-actions .btn{padding:0 13px}.nexo-modal-progress{margin-bottom:18px}}
+@media(prefers-reduced-motion:reduce){.nexo-modal-backdrop,.nexo-welcome-step{animation:none}.nexo-modal-progress span,.nexo-modal .nexo-close{transition:none}}

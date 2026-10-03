@@ -1,0 +1,67 @@
+{
+  "id": "id-legivel-estavel",
+  "categoria": "programa_televisao",
+  "titulo": "Nome do conteúdo",
+  "subcategoria": "",
+  "generos": [],
+  "organizacao": {
+    "caminho": [
+      "CANAL DE YOUTUBER",
+      "NOME DO CONTEÚDO"
+    ]
+  },
+  "midia": {
+    "plataforma": "youtube",
+    "tipo": "video",
+    "destino": "externo",
+    "link": "",
+    "referencia": "nenhuma"
+  },
+  "conteudos": [
+    {
+      "titulo": "Nome do conteúdo vinculado",
+      "midia": {
+        "plataforma": "youtube",
+        "tipo": "video",
+        "destino": "externo",
+        "link": "",
+        "referencia": "nenhuma"
+      },
+      "exibir_thumbnail": true
+    }
+  ],
+  "episodios": [
+    {
+      "numero": 1,
+      "temporada": 1,
+      "titulo": "Nome do episódio",
+      "subcategoria": "episodio",
+      "midia": {
+        "plataforma": "youtube",
+        "tipo": "video",
+        "destino": "externo",
+        "link": "",
+        "referencia": "episodio"
+      },
+      "exibir_thumbnail": true
+    }
+  ],
+  "fontes": [
+    {
+      "nome": "Nome do canal/perfil",
+      "link": ""
+    }
+  ],
+  "observacoes": [
+    "id é interno do NEXOVERSO e deve ser estável, legível e único; não é o ID do YouTube.",
+    "categoria define a família principal do conteúdo.",
+    "subcategoria refina a categoria e pode ser usada para filtros contextuais.",
+    "midia.tipo descreve o destino da mídia (video, playlist, pagina etc.).",
+    "midia.referencia controla a identificação visual: nenhuma, temporada ou episodio.",
+    "referencia=temporada exibe apenas Temporada X; referencia=episodio exibe Temporada X · Episódio Y; referencia=nenhuma não exibe temporada nem episódio.",
+    "conteudos é usado quando uma obra possui vários links sem que esses links sejam episódios de uma série.",
+    "episodios é reservado para estruturas que realmente possuem temporada/episódio.",
+    "organizacao.caminho preserva a hierarquia de pastas/filtros de origem sem transformar essa hierarquia em categoria principal.",
+    "O link pode permanecer vazio enquanto o conteúdo real ainda não foi cadastrado."
+  ]
+}

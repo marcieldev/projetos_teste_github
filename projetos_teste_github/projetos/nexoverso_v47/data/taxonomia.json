@@ -1,0 +1,171 @@
+{
+  "categorias": [
+    {
+      "id": "filme",
+      "nome": "Filmes"
+    },
+    {
+      "id": "desenho",
+      "nome": "Desenhos animados"
+    },
+    {
+      "id": "serie",
+      "nome": "Séries"
+    },
+    {
+      "id": "documentario",
+      "nome": "Documentários"
+    },
+    {
+      "id": "programa_televisao",
+      "nome": "Programas de televisão"
+    },
+    {
+      "id": "jogos",
+      "nome": "Jogos"
+    }
+  ],
+  "subcategorias": [
+    {
+      "id": "episodio",
+      "nome": "Episódio"
+    },
+    {
+      "id": "compilado",
+      "nome": "Compilado"
+    },
+    {
+      "id": "especial",
+      "nome": "Especial"
+    },
+    {
+      "id": "novela",
+      "nome": "Novela"
+    },
+    {
+      "id": "gameplay",
+      "nome": "Gameplay",
+      "filtro_secundario": {
+        "id": "jogo",
+        "nome": "Jogo",
+        "origem": "campo_jogo"
+      }
+    },
+    {
+      "id": "busologia",
+      "nome": "Busologia"
+    },
+    {
+      "id": "analise",
+      "nome": "Análise"
+    },
+    {
+      "id": "review",
+      "nome": "Review"
+    },
+    {
+      "id": "tutorial",
+      "nome": "Tutorial"
+    },
+    {
+      "id": "trailer",
+      "nome": "Trailer"
+    },
+    {
+      "id": "teaser",
+      "nome": "Teaser"
+    },
+    {
+      "id": "clipe",
+      "nome": "Clipe"
+    },
+    {
+      "id": "entrevista",
+      "nome": "Entrevista"
+    },
+    {
+      "id": "live",
+      "nome": "Live"
+    },
+    {
+      "id": "curta",
+      "nome": "Curta"
+    },
+    {
+      "id": "cena",
+      "nome": "Cena"
+    },
+    {
+      "id": "short",
+      "nome": "Short"
+    }
+  ],
+  "generos_sugeridos": [
+    "Animação",
+    "Aventura",
+    "Comédia",
+    "Família",
+    "Fantasia",
+    "Ficção",
+    "Drama",
+    "Mistério",
+    "Romance",
+    "História",
+    "Tecnologia",
+    "Simulação",
+    "Ônibus",
+    "Caminhões",
+    "Minecraft",
+    "GTA",
+    "ETS2",
+    "Motorhome",
+    "Automóveis",
+    "Pneus",
+    "Motocicletas",
+    "Condução",
+    "Mecânica",
+    "Diagnóstico",
+    "Personalização",
+    "Manutenção",
+    "Ação",
+    "Policial",
+    "Suspense",
+    "Paródia"
+  ],
+  "temas": [
+    {
+      "id": "motorhome",
+      "nome": "Motorhome"
+    },
+    {
+      "id": "automoveis",
+      "nome": "Automóveis"
+    },
+    {
+      "id": "motocicletas",
+      "nome": "Motocicletas"
+    },
+    {
+      "id": "mecanica",
+      "nome": "Mecânica"
+    },
+    {
+      "id": "caminhoes",
+      "nome": "Caminhões"
+    },
+    {
+      "id": "outros",
+      "nome": "Outros"
+    }
+  ],
+  "colecoes": [
+    {
+      "id": "barbie",
+      "nome": "Barbie"
+    },
+    {
+      "id": "velozes_furiosos",
+      "nome": "Velozes & Furiosos"
+    }
+  ]
+}

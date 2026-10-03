@@ -1,0 +1,37 @@
+/* TÍTULO — composição da página de detalhes e playlist de episódios. */
+.detail{display:grid;grid-template-columns:minmax(220px,340px) 1fr;gap:30px;align-items:start}.detail>div:first-child{display:flex;justify-content:center}.detail h1{font-size:clamp(36px,5vw,68px);line-height:.96;letter-spacing:-.045em;margin:9px 0 13px}.detail-copy{max-width:900px;color:#9eafc3;line-height:1.7}.episodes{margin-top:34px}.episodes-list{display:grid;gap:8px}.episode-card{display:grid;grid-template-columns:150px minmax(0,1fr);min-height:112px;border:1px solid rgba(148,171,201,.16);border-radius:10px;background:linear-gradient(90deg,rgba(10,21,36,.95),rgba(5,13,24,.92));overflow:hidden}.episode-thumb{position:relative;min-height:112px;background:#111d2d;overflow:hidden}.episode-thumb img{width:100%;height:100%;display:block;object-fit:cover}.thumb-play{position:absolute;left:12px;bottom:10px;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:rgba(0,0,0,.78);color:#fff;font-size:12px}.episode-thumb-placeholder{display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,#101c30,#20204a)}.episode-thumb-placeholder span{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:rgba(0,0,0,.55)}.episode-card-body{display:grid;grid-template-columns:34px minmax(0,1fr) auto;align-items:center;gap:12px;padding:15px 14px}.episode-card-copy{min-width:0}.episode-kind{display:block;color:#00e5ff;font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px}.episode-card h3{font-size:14px;margin:0 0 5px;line-height:1.3}.episode-card p{margin:0;color:#899bb0;font-size:11px;line-height:1.5}.episode-card .btn{flex:0 0 auto}.source-profile{margin-top:20px;display:flex;align-items:center;gap:14px;max-width:760px;padding:13px 15px;border:1px solid rgba(148,171,201,.18);border-radius:14px;background:linear-gradient(90deg,rgba(11,23,39,.98),rgba(7,15,27,.92))}.source-avatar{width:54px;height:54px;border-radius:50%;object-fit:cover;flex:0 0 54px;border:1px solid rgba(0,229,255,.3);background:#15243a}.source-avatar-initials{display:grid;place-items:center;color:#fff;font-weight:900;background:linear-gradient(135deg,#642cff,#00bfe8)}.source-profile-info{display:flex;flex-direction:column;gap:3px;min-width:0}.source-profile-info strong{font-size:14px}.source-profile-info span:not(.source-kicker){font-size:11px;color:#8fa0b5}.source-profile-info a{font-size:11px;color:#00e5ff;text-decoration:none}.source-kicker{font-size:9px;color:#00e5ff;font-weight:800;letter-spacing:.1em}.source-box{display:none}
+@media(max-width:760px){.detail{grid-template-columns:1fr}.detail>div:first-child{justify-content:flex-start}.episode-card{grid-template-columns:120px 1fr}.episode-thumb{min-height:96px}.episode-card-body{grid-template-columns:30px minmax(0,1fr);padding:11px;gap:9px}.episode-card .btn{grid-column:2;justify-self:end}.source-profile{align-items:flex-start}}
+.episode-identification{display:block;color:#f0f6ff;font-size:12px;font-weight:800;margin-bottom:4px}.episode-card.no-thumbnail{grid-template-columns:1fr}.episode-card.no-thumbnail .episode-card-body{padding-left:20px}
+@media(max-width:760px){.episode-card.no-thumbnail .episode-card-body{padding-left:12px}}
+
+/* Imagem principal: preserva a proporção original, sem cortar fotos verticais/horizontais. */
+.detail>div:first-child .poster{aspect-ratio:auto;width:100%;height:auto;max-height:430px;object-fit:contain;object-position:center;background:#111a28;border-radius:12px}
+
+/* Fontes: vários canais/perfis podem ser cadastrados e cada nome vira um link. */
+.source-channel-list{display:block;font-size:13px;line-height:1.45;word-break:break-word}.source-channel{color:#f0f6ff;font-weight:800;text-decoration:none;transition:color .2s}.source-channel:hover{color:#00e5ff;text-decoration:underline}.source-channel-disabled{color:#8fa0b5;font-weight:700}.source-separator{color:#5e7189}
+@media(max-width:760px){.detail>div:first-child .poster{max-height:380px}}
+
+.detail-content-type{display:inline-block;margin:7px 0 2px;padding:4px 8px;border:1px solid rgba(0,229,255,.18);border-radius:999px;color:#9fb0c6;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+
+/* Metadados e gêneros do título. */
+.genre-pill{display:inline-flex;align-items:center;margin:2px 3px 2px 0;padding:4px 8px;border:1px solid rgba(0,229,255,.18);border-radius:999px;background:rgba(0,229,255,.04);color:#b7c9dc;font-size:10px;font-weight:800;line-height:1;text-transform:none}
+
+/* Barra de pesquisa da playlist: inspirada na navegação prática de playlists do YouTube. */
+.playlist-tools{display:flex;align-items:center;gap:12px;margin:18px 0 12px;padding:10px 12px;border:1px solid rgba(148,171,201,.14);border-radius:12px;background:rgba(7,15,27,.72)}
+.playlist-search{display:flex;align-items:center;gap:9px;flex:1;min-width:0;height:40px;padding:0 10px;border:1px solid rgba(148,171,201,.18);border-radius:9px;background:#081321;color:#7f92aa}
+.playlist-search>span{font-size:20px;line-height:1}.playlist-search input{width:100%;border:0;outline:0;background:transparent;color:#eef6ff;font:inherit;font-size:13px}.playlist-search input::placeholder{color:#71839a}.playlist-search button{border:0;background:transparent;color:#8294aa;font-size:22px;line-height:1;cursor:pointer;padding:0 3px}.playlist-search button:hover{color:#fff}
+.playlist-count{flex:0 0 auto;color:#8396ac;font-size:11px;font-weight:800;white-space:nowrap}
+.playlist-item[hidden]{display:none}
+.playlist-number{display:grid;place-items:center;flex:0 0 30px;width:30px;height:30px;border-radius:8px;background:rgba(255,255,255,.045);color:#71859d;font-size:11px;font-weight:900}
+.episode-card-body>.playlist-number{margin-right:-2px}
+@media(max-width:760px){.playlist-tools{align-items:stretch;flex-direction:column}.playlist-count{padding-left:2px}.playlist-number{display:none}}
+
+.collection-entry-placeholder{height:100%;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,#101c30,#20204a);font-size:22px}
+
+.playlist-meta{color:#71859d!important;font-size:10px!important;margin:0 0 3px!important}
+
+
+.single-media-action{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px;border:1px solid rgba(145,167,202,.18);border-radius:14px;background:#06101d;}
+.single-media-action h3{margin:4px 0 8px;font-size:20px;}
+.single-media-action p:not(.eyebrow){margin:0;color:#91a7c6;max-width:760px;line-height:1.55;}
+@media(max-width:700px){.single-media-action{flex-direction:column;align-items:flex-start}.single-media-action .btn{width:100%;text-align:center}}

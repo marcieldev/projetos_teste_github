@@ -1,0 +1,51 @@
+{
+  "itens": [
+    {
+      "id": "leitor-b-o-eletronico",
+      "titulo": "Leitor para descobrir o B.O eletrônico",
+      "categoria": "programa_televisao",
+      "subcategoria": "tutorial",
+      "generos": [
+        "Automóveis",
+        "Mecânica",
+        "Diagnóstico"
+      ],
+      "sinopse": "Conteúdo organizado dentro do filtro de assuntos na área da mecânica.",
+      "classificacao": "Livre",
+      "imagem": "assets/img/poster-aster.svg",
+      "fontes": [
+        {
+          "nome": "Marcos Maia",
+          "link": ""
+        }
+      ],
+      "conteudos": [
+        {
+          "titulo": "Ande sempre com isso no carro! Vai fazer você economizar muito.",
+          "midia": {
+            "plataforma": "youtube",
+            "tipo": "video",
+            "destino": "externo",
+            "link": "https://www.youtube.com/watch?v=p1qVarxO9-E&list=PLnEFxOQmAyUj2LmnxJzjrxvy9HFbL0T26",
+            "referencia": "nenhuma"
+          },
+          "exibir_thumbnail": true,
+          "numero": 1,
+          "exibir_numero": true
+        }
+      ],
+      "organizacao": {
+        "caminho": [
+          "FILTRO ( ASSUNTOS NA ÁREA DA MECANICA )",
+          "LEITOR PARA DESCOBRIR O B.O ELETRONICO",
+          "Marcos Maia"
+        ],
+        "pasta_tematica": "mecanica"
+      },
+      "ano": null,
+      "tema": "mecanica"
+    }
+  ],
+  "categoria": "programa_televisao",
+  "tema": "mecanica"
+}
